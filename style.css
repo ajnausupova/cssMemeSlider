@@ -1,1 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.slider {
+  width: 1100px;
+  height: 600px;
+  overflow: hidden;
+  border: 10px solid #fff;
+}
+
+.midle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navigation {
+  position: absolute;
+  bottom: 16px;
+  left: 80%;
+  transform: translateX(-50%);
+  display: flex;
+}
 
