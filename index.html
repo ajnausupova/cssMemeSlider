@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>cssMemeSlider</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="slider.css">
-</head>
-<body>
-  <div class="slider midle">
-    <div class="slides">
-<input type="radio" name="r" id="r1" checked>
-<input type="radio" name="r" id="r2">
-<input type="radio" name="r" id="r3">
-<input type="radio" name="r" id="r4">
-
-<div class="slide"><img src="/cssMemeSlider/img/divan.jpg" alt=""></div>
-<div class="slide"><img src="/cssMemeSlider/img/doctor.jpg" alt=""></div>
-<div class="slide"><img src="/cssMemeSlider/img/coloboc.jpg" alt=""></div>
-<div class="slide"><img src="/cssMemeSlider/img/приколы.jpeg" alt=""></div>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssMemeSlider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+  </head>
+  <body>
+    <div class="wrap">
+        <input type="radio" name="slides" id="point1" checked>
+        <input type="radio" name="slides" id="point2">
+        <input type="radio" name="slides" id="point3">
+        <input type="radio" name="slides" id="point4">
+        <div class="slider">
+        <div class="slides img1"></div>
+        <div class="slides img2"></div>
+        <div class="slides img3"></div>
+        <div class="slides img4"></div>
+        </div>
+      <div class="control">
+        <label for="point1"></label>
+        <label for="point2"></label>
+        <label for="point3"></label>
+        <label for="point4"></label>
+      </div>
     </div>
-    <div class="navigation">
-      <label for="r1" class="bar"></label>
-      <label for="r2" class="bar"></label>
-      <label for="r3" class="bar"></label>
-      <label for="r4" class="bar"></label>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
